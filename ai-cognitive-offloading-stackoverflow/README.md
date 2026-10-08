@@ -13,11 +13,12 @@ what the pre-launch trend would predict?
 
 Monthly counts of new questions on Stack Overflow, July 2008 to May 2026 (215 months).
 The counts come from a publicly posted monthly count query run against the Stack
-Exchange Data Explorer, shared in a GitHub gist (`hopeseekr`) that the author updated
-through 2026. The numbers were transcribed by hand from that gist into `data.csv`
-and checked for gaps and duplicates; they were not independently re-queried. To
-reproduce from the source, run an equivalent count-of-questions-by-month query at
-data.stackexchange.com.
+Exchange Data Explorer, shared in a [GitHub gist by `hopeseekr`](https://gist.github.com/hopeseekr/f522e380e35745bd5bdc3269a9f0b132):
+July 2008 to December 2024 from the gist's CSV, and January 2025 to May 2026 from the
+author's update comment of 23 May 2026. The numbers were transcribed by hand into
+`data.csv`, then all 215 months were checked against both sources with no mismatches.
+They were not independently re-queried. To reproduce from the source, run an
+equivalent count-of-questions-by-month query at data.stackexchange.com.
 
 ## Method
 
@@ -38,7 +39,7 @@ I report four specifications instead of one:
 |---|---|---|---|---|
 | A. Full history | 2008-2026 | -10.5% | -13.0 to -7.9 | -9.6% |
 | **B. Primary** | 2017-2026 | **-9.0%** | -11.1 to -6.7 | -9.6% |
-| C. Drop May 2026 (possibly partial) | 2017-2026 | -8.6% | -10.7 to -6.5 | -9.2% |
+| C. Drop May 2026 (partial month) | 2017-2026 | -8.6% | -10.7 to -6.5 | -9.2% |
 | D. Shorter pre-period | 2019-2026 | -8.4% | -10.5 to -6.3 | -9.2% |
 
 Spec B is primary because a single straight line through 2008-2022 mixes the site's
@@ -70,7 +71,8 @@ specification, and the estimate moves only from -8.4% to -10.5% across them.
   sign between specifications, so I don't interpret it; the slope change is the
   result. A straight line in logs also understates how much the decline accelerated.
 - **Data vintage.** Monthly counts can be revised as posts are deleted, and the final
-  month may be partial. Spec C shows the result holds without it.
+  month (May 2026) is partial: the source count was posted on 23 May. Spec C shows the
+  result holds without it.
 - **A selected population.** People who post public questions are not a random sample of
   people who write code.
 
