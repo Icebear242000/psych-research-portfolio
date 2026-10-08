@@ -1,0 +1,25 @@
+Interrupted time series: slope change at ChatGPT launch (first post month: Dec 2022)
+
+A. Full history (Jul 2008 - May 2026)  (n=215 months)
+  pre-launch trend:            +1.00% per month
+  extra post-launch trend:     -10.48% per month (95% CI -12.96 to -7.93; p=0.0000)
+  net post-launch trend:       -9.58% per month
+  immediate level shift:       -34.8%
+
+B. PRIMARY: local pre-period (Jan 2017 - May 2026)  (n=113 months)
+  pre-launch trend:            -0.67% per month
+  extra post-launch trend:     -8.95% per month (95% CI -11.14 to -6.70; p=0.0000)
+  net post-launch trend:       -9.55% per month
+  immediate level shift:       +47.8%
+
+C. As B, dropping possibly-partial May 2026  (n=112 months)
+  pre-launch trend:            -0.66% per month
+  extra post-launch trend:     -8.60% per month (95% CI -10.67 to -6.49; p=0.0000)
+  net post-launch trend:       -9.21% per month
+  immediate level shift:       +40.4%
+
+D. As C, shorter pre-period (Jan 2019 start)  (n=88 months)
+  pre-launch trend:            -0.84% per month
+  extra post-launch trend:     -8.44% per month (95% CI -10.51 to -6.32; p=0.0000)
+  net post-launch trend:       -9.21% per month
+  immediate level shift:       +45.1%
