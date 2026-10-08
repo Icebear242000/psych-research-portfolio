@@ -12,7 +12,7 @@ B. PRIMARY: local pre-period (Jan 2017 - May 2026)  (n=113 months)
   net post-launch trend:       -9.55% per month
   immediate level shift:       +47.8%
 
-C. As B, dropping possibly-partial May 2026  (n=112 months)
+C. As B, dropping partial May 2026  (n=112 months)
   pre-launch trend:            -0.66% per month
   extra post-launch trend:     -8.60% per month (95% CI -10.67 to -6.49; p=0.0000)
   net post-launch trend:       -9.21% per month

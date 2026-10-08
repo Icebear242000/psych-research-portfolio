@@ -14,8 +14,8 @@ Design notes
   line through 2008-2022 mixes the site's growth years with its decline years and is
   a poor stand-in for the trend immediately before ChatGPT. The full-history version
   is reported as a sensitivity check, not hidden.
-- The final month (May 2026) may be a partial month in the source, so a spec that
-  drops it is also reported.
+- The final month (May 2026) is a partial month in the source (its count was posted
+  on 23 May 2026), so a spec that drops it is also reported.
 """
 
 import numpy as np
@@ -57,7 +57,7 @@ specs = [
     fit_its(df, "A. Full history (Jul 2008 - May 2026)"),
     fit_its(df[df["date"] >= "2017-01-01"], "B. PRIMARY: local pre-period (Jan 2017 - May 2026)"),
     fit_its(df[(df["date"] >= "2017-01-01") & (df["date"] < "2026-05-01")],
-            "C. As B, dropping possibly-partial May 2026"),
+            "C. As B, dropping partial May 2026"),
     fit_its(df[(df["date"] >= "2019-01-01") & (df["date"] < "2026-05-01")],
             "D. As C, shorter pre-period (Jan 2019 start)"),
 ]
