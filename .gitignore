@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 .DS_Store
 .ipynb_checkpoints/
+
+# NSCH raw data (download from census.gov; not redistributed)
+adhd-nsch-functioning/data/raw/
