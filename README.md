@@ -1,11 +1,11 @@
 # Behavioral Data Science Portfolio
 
-Two quantitative research projects on psychological well-being and human behavior,
+Three quantitative research projects on psychological well-being and human behavior,
 built by **Shree Pallavi Vegesana** (B.Tech Computer Science, M.S. Data Analytics) while
 moving from data analytics into psychological science.
 
-Both projects use publicly available data, report uncertainty, and state their
-limitations alongside their results.
+All three use publicly available data, report uncertainty, and state their limitations
+alongside their results.
 
 ## Projects
 
@@ -24,13 +24,27 @@ that holds across four specifications. Framed as behavioral evidence relevant to
 cognitive offloading, with explicit discussion of what it cannot show.
 *Python (statsmodels), interrupted time series, HAC standard errors.*
 
+### 3. [Supports and Day-to-Day Functioning in Children With ADHD, by Sex](./adhd-nsch-functioning)
+Pre-registered analysis of the National Survey of Children's Health (6,000 children aged
+6-17 with ADHD, 2024), replicated on 2025 data. Family resilience was associated with
+higher odds of usually finishing tasks (**OR 1.42** in 2024, **1.33** in 2025) for both
+girls and boys. Associations with activities and treatment did not replicate, and no
+support differed reliably by sex.
+*R (survey, mitools), complex survey design, multiply imputed income, pre-registered
+analysis plan.*
+
 ## Running the code
+
+Projects 1 and 2 (Python):
 
 ```
 pip install -r requirements.txt
 cd social-support-wellbeing && python analysis.py
 cd ../ai-cognitive-offloading-stackoverflow && python analysis.py
 ```
+
+Project 3 (R) needs the NSCH data files from census.gov; see
+[its README](./adhd-nsch-functioning#reproduce).
 
 ## Contact
 

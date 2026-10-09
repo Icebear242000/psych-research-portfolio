@@ -3,5 +3,6 @@ __pycache__/
 .DS_Store
 .ipynb_checkpoints/
 
-# NSCH raw data (download from census.gov; not redistributed)
+# NSCH microdata (download from census.gov; not redistributed)
 adhd-nsch-functioning/data/raw/
+adhd-nsch-functioning/data/derived/

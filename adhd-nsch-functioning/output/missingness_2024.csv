@@ -1,0 +1,14 @@
+"variable","pct_missing_all","pct_missing_boys","pct_missing_girls"
+"finish",1.1,1.1,1.1
+"girl",0,0,0
+"fam_resilience",3.4,3.5,3.3
+"any_activity",1.1,1.1,1.1
+"adhd_med",0.4,0.4,0.4
+"behav_treat",0.1,0.1,0.2
+"age",0,0,0
+"severity",0.6,0.6,0.7
+"race_eth",0,0,0
+"fpl1",0,0,0
+"parent_educ",0,0,0
+"insurance",1.4,1.5,1.4
+"n_cooccur",4.6,4.6,4.7
